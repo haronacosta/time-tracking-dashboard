@@ -1,0 +1,23 @@
+@import '../../assets/scss/abstracts/variables';
+
+.TimeTracking {
+  color: $white;
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.TimeTracking__wrapper {
+  background-color: $darkblue;
+  width: 90%;
+}
+
+.TimeTracking__Info {
+  height: 13rem;
+  width: 100%;
+  border-radius: 4rem;
+}
+
+.TimeTracking__Info__picture {
+  width: 3rem;
+}
